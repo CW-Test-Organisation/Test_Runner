@@ -102,7 +102,7 @@ def redraw(canvas, width, height,
                 fill="#0055ff", outline="black"
             )
 
-
+# This is a test comentar just to check a pipline
 def main():
     root = tk.Tk()
     root.title("Square & Circle — connected points")
