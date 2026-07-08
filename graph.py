@@ -124,7 +124,7 @@ def main():
             fg=color, bg="#f0f0f0", activebackground="#f0f0f0",
             command=lambda: redraw(canvas, canvas.winfo_width(),
                                    canvas.winfo_height(),
-                                   show_square, show_circle, show_cross)
+                                   show_square) #, show_circle, show_cross)
         )
 
     cb_square = make_cb("⬜  Square",        show_square, "#cc0000")
