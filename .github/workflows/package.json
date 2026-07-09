@@ -1,0 +1,9 @@
+{
+  "name": "test-runner",
+  "version": "1.0.0",
+  "description": "Python Test Runner",
+  "scripts": {
+    "test": "echo No JS tests"
+  },
+  "dependencies": {}
+}
