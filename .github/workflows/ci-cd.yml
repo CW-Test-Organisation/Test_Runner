@@ -21,6 +21,7 @@ jobs:
  
       - name: Install dependencies
         run: npm install
+        working-directory: /github/workspace/_work/Test_Runner
  
       - name: Run tests
         run: npm test
