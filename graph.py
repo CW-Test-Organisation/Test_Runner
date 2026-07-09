@@ -2,6 +2,9 @@ import tkinter as tk
 from itertools import combinations
 import math
 
+#---------Coment Block
+# his is a coment
+
 # ---- Configuration ----
 START_SIZE     = 700   # initial window size in pixels
 MARGIN         = 80    # distance from window edge to the shapes
