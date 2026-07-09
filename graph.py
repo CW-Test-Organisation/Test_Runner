@@ -102,7 +102,6 @@ def redraw(canvas, width, height,
                 fill="#0055ff", outline="black"
             )
 
-# This is a test comentar just to check a pipline
 def main():
     root = tk.Tk()
     root.title("Square & Circle — connected points")
@@ -117,7 +116,6 @@ def main():
     panel = tk.Frame(root, bg="#f0f0f0", pady=6)
     panel.pack(fill="x")
 
-# test comentar 
     def make_cb(text, var, color):
         return tk.Checkbutton(
             panel, text=text, variable=var,
