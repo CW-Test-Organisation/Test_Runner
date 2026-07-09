@@ -117,6 +117,7 @@ def main():
     panel = tk.Frame(root, bg="#f0f0f0", pady=6)
     panel.pack(fill="x")
 
+# test comentar 
     def make_cb(text, var, color):
         return tk.Checkbutton(
             panel, text=text, variable=var,
