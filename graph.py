@@ -6,7 +6,7 @@ import math
 # his is a 
 # some more coments
 # more coments
-#
+# noch ein test
 
 # ---- Configuration ----
 START_SIZE     = 700   # initial window size in pixels
