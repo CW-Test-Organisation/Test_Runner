@@ -3,7 +3,9 @@ from itertools import combinations
 import math
 
 #---------Coment Block
-# his is a coment
+# his is a 
+# some more coments
+#
 
 # ---- Configuration ----
 START_SIZE     = 700   # initial window size in pixels
