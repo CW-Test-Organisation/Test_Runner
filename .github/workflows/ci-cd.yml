@@ -27,7 +27,7 @@ jobs:
         run: npm test
  
       - name: Lint code
-        run: npm run lint --if-present
+        run: npm run lint
  
   # --- CD: Deploy (only on push to main) ---
   deploy:
