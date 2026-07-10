@@ -2,9 +2,6 @@ import tkinter as tk
 from itertools import combinations
 import math
 
-#---------Coment Block
-# 1. test commit
-#
 
 # ---- Configuration ----
 START_SIZE     = 700   # initial window size in pixels
