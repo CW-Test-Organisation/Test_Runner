@@ -3,10 +3,8 @@ from itertools import combinations
 import math
 
 #---------Coment Block
-# his is a 
-# some more coments
-# more coments
-# noch ein test
+# 1. test commit
+#
 
 # ---- Configuration ----
 START_SIZE     = 700   # initial window size in pixels
