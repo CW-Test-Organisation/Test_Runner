@@ -103,9 +103,6 @@ def redraw(canvas, width, height,
                 fill="#0055ff", outline="black"
             )
 
-###################
-# My Coments
-#
 
 def main():
     root = tk.Tk()
