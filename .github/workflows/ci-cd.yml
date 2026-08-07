@@ -65,3 +65,22 @@ jobs:
            node-version: '20' 
       - run: npm install dependencies
       - run: npm install
+#      - run: npm test
+      - run: npm run lint --if-present
+#      - name: Checkout code
+#        uses: actions/checkout@v4
+# 
+#      - name: Set up Node.js
+#        uses: actions/setup-node@v4
+#        with:
+#          node-version: '20'
+# 
+#      - name: Install dependencies
+#        run: npm install
+##        working-directory: /github/workspace/_work/Test_Runner
+# 
+#      - name: Run tests
+#        run: npm test
+# 
+#      - name: Lint code
+#        run: npm run lint --if-present#
