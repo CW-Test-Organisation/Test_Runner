@@ -102,7 +102,10 @@ def redraw(canvas, width, height,
                 x + POINT_RADIUS, y + POINT_RADIUS,
                 fill="#0055ff", outline="black"
             )
-
+#########################################
+#
+# This is a coment to check organisation
+#
 
 def main():
     root = tk.Tk()
