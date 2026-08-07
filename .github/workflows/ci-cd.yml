@@ -1,54 +1,5 @@
-#name: CI/CD Pipeline
-# 
-#on:
-#  push:
-#    branches: [main]
-#  pull_request:
-#    branches: [main]
-# 
-#jobs:
-#  # --- CI: Build & Test ---
-#  build-and-test:
-#    runs-on: [self-hosted, linux, docker, shared]   # ← Targets your Docker runner
-#    steps:
-#      - name: Checkout code
-#        uses: actions/checkout@v4
-# 
-#      - name: Set up Node.js
-#        uses: actions/setup-node@v4
-#        with:
-#          node-version: '20'
-# 
-#      - name: Install dependencies
-#        run: npm install
-#        working-directory: /github/workspace/_work/Test_Runner
-# 
-#      - name: Run tests
-#        run: npm test
-# 
-#      - name: Lint code
-#        run: npm run lint --if-present
-# 
-#  # --- CD: Deploy (only on push to main) ---
-#  deploy:
-#    runs-on: [self-hosted, linux, docker, shared]
-#    needs: build-and-test       # Only runs if CI passes
-#    if: github.ref == 'refs/heads/main'
-#    steps:
-#      - name: Checkout code
-#        uses: actions/checkout@v4
-# 
-#      - name: Build Docker image
-#        run: docker build -t my-app:latest .
-# 
-#      - name: Deploy application
-#        run: |
-#          echo "Deploying to production..."
-#          # Add your deployment commands here
-#          # e.g., docker-compose up -d, kubectl apply, etc.
-
 name: CI/CD Pipeline
-#on: [push, pull_request]
+
 on:
   push:
     branches: [main]
@@ -65,3 +16,4 @@ jobs:
            node-version: '20' 
       - run: npm install dependencies
       - run: npm install
+      - run: npm run lint --if-present
