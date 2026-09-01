@@ -106,7 +106,8 @@ def redraw(canvas, width, height,
 #
 # This is a coment to check organisation
 #
-# Expand this coment
+# Expand this coment #########
+#
 #
 
 def main():
